@@ -40,7 +40,7 @@ esta_lloviendo = False #Esta es una situación, entonces cuando le des type ser�
 print(type(esta_lloviendo) is bool) #Lo podes comprobar poniendo is o is not
 print(type(monto_hope) is not bool)
 
-#No puedo sumar palabras, entonces se contatena 
+#No puedo sumar palabras, entonces se contatena. No se puede número con palabras o viceversa
 
 nombre = "Vale"
 apellido = "López"
