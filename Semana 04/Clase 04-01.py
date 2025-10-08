@@ -37,10 +37,10 @@ print(f"y la totalida de gastos fue de ${abs(inversion_evento):,.2f} dolares") #
 print(type(usuario) is str)
 
 esta_lloviendo = False #Esta es una situación, entonces cuando le des type será bool de booleano
-print(type(esta_lloviendo) is bool) #Lo podes comprobar poniendo is o is not
+print(type(esta_lloviendo) is bool) # Lo podes comprobar poniendo is o is not
 print(type(monto_hope) is not bool)
 
-#No puedo sumar palabras, entonces se contatena. No se puede número con palabras o viceversa
+# No puedo sumar palabras, entonces se contatena. No se puede número con palabras o viceversa
 
 nombre = "Vale"
 apellido = "López"
