@@ -1,7 +1,6 @@
 PLATOS_DISPONIBLES = ("Hamburguesa","Hotdog","Pizza","Tacos","Lasaña","Ensalada","Pupusas","Burrito","Alitas de pollo","Papas fritas")
 
-Hamburguesa = int(input())
-print(f"El plato seleccionado por Alvin es: {PLATOS_DISPONIBLES[0]}")
+numero_plato = int(input())
+variable1 = numero_plato - 1
 
-Papas_fritas = int(input())
-print(f"El palto seleccionado por Alvin es: {PLATOS_DISPONIBLES[9]}")
+print(f"El plato de Alvin: {PLATOS_DISPONIBLES[numero_plato - 1]}")

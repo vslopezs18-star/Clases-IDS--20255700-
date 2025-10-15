@@ -1,3 +1,3 @@
 contraseña = "DFGUPCCBJKAJ"
 
-print(contraseña[::3])
+print(contraseña[0:4:3])
