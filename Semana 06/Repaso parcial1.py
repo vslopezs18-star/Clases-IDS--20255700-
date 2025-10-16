@@ -1,5 +1,5 @@
 correo = input()
-
+  
 unarroba = correo.count("@")==1 
 unpunto = correo.count(".") >=1
 espacios = correo.count(" ")==0
