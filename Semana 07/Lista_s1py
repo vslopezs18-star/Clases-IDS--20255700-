@@ -1,0 +1,4 @@
+lista = [1, 2, "tres"] # Las listas pueden tener valores heterogéneos
+
+print(len(lista))
+print(lista)
