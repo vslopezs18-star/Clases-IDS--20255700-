@@ -1,6 +1,5 @@
 lista = [1, 2, "tres", ["ene", "feb", "mar"]] # Las listas pueden tener valores heterogéneos
-# append() agrega un elemento al final de la lista
-
+# Append agrega un elemento al final de la lista
 print(len(lista))
 print(lista)
 print(lista[2][2:].upper()) # Acceder a un elemento dentro de un string en la lista
