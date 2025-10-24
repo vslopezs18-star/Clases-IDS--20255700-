@@ -8,6 +8,11 @@ else:
     else:
         if nota > 5:
             print("B")
+        else: 
+            if nota > 3:
+                print("R")
+            else:
+                print("M")
         
 # Elif se usa para evaluar múltiples condiciones de manera más eficiente
 
