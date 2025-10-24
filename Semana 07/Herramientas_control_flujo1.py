@@ -4,3 +4,5 @@ nota = float(input("Indique la nota: "))
 
 if nota>=6: 
     print("Pasó") # Si la nota es mayor o igual a 6, se imprime "Pasó"
+else:
+    print("No pasó") # Si la nota es menor a 6, se imprime "No pasó"
