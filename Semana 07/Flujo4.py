@@ -6,7 +6,7 @@
 nombres = [1, 2, 3, 0] # Aquí tengo un iterable (lista) y tres iteradores (1, 2, 3)
 
 for numerito in nombres: # El for crea un iterador que recorre el iterable nombres, el numerito no necesita ser declarado antes porque el for lo crea automáticamente
-    print("Hola") # Imprime cada uno de los elementos del iterable nombres
+    print("Hola") # Imprime un saludo las veces que itera el for
     print(numerito) # Imprime cada uno de los elementos del iterable nombres
     
 print(len(nombres[0])) # Esto me da error porque el entero no es un iterable, no puedo recorrerlo
