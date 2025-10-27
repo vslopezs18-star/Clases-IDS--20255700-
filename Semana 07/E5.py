@@ -1,21 +1,10 @@
 cantidad_combos = int(input())
-
-Pa = int(input())
-Pb = int(input())
-Pc = int(input())
+Pa, Pb, Pc = input().split() # El split separa los valores ingresados por espacios
+Pa = int(Pa)
+Pb = int(Pb)
+Pc = int(Pc)
 
 for v in range(cantidad_combos):
-    combos = input()
-    daño_total = 0
-    
-    for e in range(6): # 
-        boton = combos
-        
-        if boton == 'A':
-            daño_total = daño_total + Pa
-        if boton == "B":
-                daño_total = daño_total + Pb
-        if boton == "C":
-                daño_total = daño_total + Pc
-                
-    print(daño_total)
+    combo = input()
+    total = combo.count('A') * Pa + combo.count('B') * Pb + combo.count('C') * Pc # Calcula el total del combo contando cuántas A, B y C hay en el combo e multiplicándolas por su respectivo daño
+    print(total)

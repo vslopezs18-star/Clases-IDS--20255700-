@@ -1,7 +1,6 @@
-numero1 = int(input())
-numero2 = int(input())
+n1, n2 = map(int, input().split()) # Map para leer dos enteros en una sola línea y separarlos, split por defecto separa por espacios
 
-if numero1 > numero2:   
-     print(numero1)
-else:   
-     print(numero2)
+if n1 > n2:
+    print(n1)
+else:
+    print(n2)
