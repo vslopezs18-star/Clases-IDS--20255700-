@@ -18,8 +18,14 @@ while platosypedidos:
         platillo.append(input("Ingrese el nombre del platillo a crear: "))
         precios.append(float(input("Ingrese el precio del platillo a crear: ")))
     elif opción == 2:
-        for v in platillo:
-                print(f"{platillo}:{precios}")
+        if len(platillo) == 0:
+            print("Actualmente no hay platillos ingresados.")
+        else:
+            for v in platillo:
+                for i in precios:
+                    
+                    print(f"{v}: ${i}")
+                
                 
                 
         
