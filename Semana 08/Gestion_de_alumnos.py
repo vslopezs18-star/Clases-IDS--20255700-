@@ -1,12 +1,12 @@
 # Sistema de gestion de alumnos
 
-menu_iniciado = True
+menu_iniciado = True # Le ponemos true porque así damos inicio al menú
 alumnos = []
 
 while menu_iniciado: 
     opción = int(input("1.Agregar, 2.Consular, 3.Modificar, 4. Borrar, 5. Salir"))
     if opción == 5:
-      menu_iniciado = False
+      menu_iniciado = False # Aquí le decimos que si la opción es 5 entonces el menú se cierra
     elif opción == 1:
         alumnos.append(input("Digite el nombre del alumno: "))
         print(alumnos)
