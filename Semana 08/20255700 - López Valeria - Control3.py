@@ -16,7 +16,7 @@ while nombre_ingresado.lower() != agente.lower():
             print(f"{nombre_ingresado}")
 # 3. Gestión del menú principal 
 while platosypedidos:
-    opción = int(input("1. Creación de platillos, 2.Consulta de platillos y precios, 3.Colocar un pedido, 4. Salir"))
+    opción = int(input("1. Creación de platillos, 2.Consulta de platillos y precios, 3.Colocar un pedido, 4. Salir "))
 # 4. Creación de platillos     
     if opción == 1:
         platillo.append(input("Ingrese el nombre del platillo a crear: ").lower())
