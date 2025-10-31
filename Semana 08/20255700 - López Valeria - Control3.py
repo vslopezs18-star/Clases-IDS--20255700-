@@ -33,7 +33,7 @@ while platosypedidos:
         platillo_elegido = input("Indique el nombre del platillo para su orden: ")
         if platillo_elegido.lower() in platillo:
             indice = platillo.index(platillo_elegido.lower())
-            print(f"Usted ha elegido {platillo[indice]} con un precio de {precios[indice]}")
+            print(f"Usted ha elegido {platillo[indice]} con un precio de ${precios[indice]:.2f}")
         elif platillo_elegido.lower() not in platillo:
             print("Ese platillo no existe")
 # 7. Salir
