@@ -21,11 +21,15 @@ while platosypedidos:
         if len(platillo) == 0:
             print("Actualmente no hay platillos ingresados.")
         else:
-            for v in platillo:
-                for i in precios:
-                    
-                    print(f"{v}: ${i}")
-                
-                
-                
-        
+            for v in range(len(platillo)):
+                print(f"{platillo[v]}: ${precios[v]}")
+    elif opción == 3:
+        platillo_elegido = input("Indique el nombre del platillo para su orden: ")
+        if platillo_elegido.lower() in platillo:
+            indice = platillo.index(platillo_elegido.lower())
+            print(f"Usted ha elegido {platillo[indice]} con un precio de {precios[indice]}")
+        elif platillo_elegido.lower() not in platillo:
+            print("Ese platillo no existe")
+        elif opción == 4:
+            platosypedidos = False
+    
