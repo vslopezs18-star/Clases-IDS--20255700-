@@ -12,5 +12,3 @@ while cafeteria:
                                 6.	Mostrar pedidos del día
                                 7.	Mostrar categorías disponibles
                                 8.	Salir"""))
-    if Menu_principal == 1:
-        
