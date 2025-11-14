@@ -2,7 +2,7 @@
 
 def registrar_estudiante(lista_estudiantes):
     """Registra el nombre y carnet de los estudiantes"""
-    nombre = input("Nombre: ")
+    nombre = input("Nombre: ".capitalize())
     # Como se tienen que crear automáticamente los carnets pongo las condiciones para cada caso
     numeros = len(lista_estudiantes) + 1
     if numeros < 10:
@@ -14,12 +14,12 @@ def registrar_estudiante(lista_estudiantes):
     # Guardo todos los datos en un diccionario para que se agreguen a la lista de estudiantes
     estudiante = {
         "carnet": carnet,
-        "nombre": nombre
+        "nombre": nombre.capitalize()
     }
     
     lista_estudiantes.append(estudiante)
     # De igual manera pongo un mensaje para que se sepa el carnet correspondiente al estudiante
-    print(f"Estudiante registrado: {nombre} con carnet {carnet}.")
+    print(f"Estudiante registrado: {nombre.capitalize()} con carnet {carnet}.")
 
 # Luego creo la función para mostrar los estudiantes
 

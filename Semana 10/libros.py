@@ -3,7 +3,7 @@
 def registrar_libro(lista_libros):
     """Registra cada libro que se agrega"""
     título = input("Título: ")
-    autor = input("Autor: ")
+    autor = input("Autor: ".capitalize())
     # Aquí genero el código de los libros automáticamente según sea el caso
     numero = len(lista_libros) + 1
     if numero < 10:
@@ -15,7 +15,7 @@ def registrar_libro(lista_libros):
     # Almaceno todos los datos en un diccionario para que se agreguen a la lista de libros
     libro = {"código": código,
                  "título": título,
-                 "autor": autor,
+                 "autor": autor.capitalize(),
                  "disponible": True
                  }
     lista_libros.append(libro)
@@ -37,7 +37,7 @@ def mostrar_libros(lista_libros):
         # Muestro los datos de cada libro registrado
         print(f"Código: {libro["código"]}")
         print(f"Título: {libro["título"]}")
-        print(f"Autor: {libro["autor"]}")
+        print(f"Autor: {libro["autor"].capitalize()}")
         print(f"Estado: {estado}")
 
 
