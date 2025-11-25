@@ -17,7 +17,6 @@ while True:
     
     if opcion == "1": # Acordate de ponerlo en comillas porque lo vas a evaluar como texto, no como número
         fn.registrar_estudiante() # Aquí le digo que de fn llame a la función, en vez de hacerlo arriba con from e import
-        print("Eligió la opción 1")
     elif opcion == "2":
         print("Eligió la opción 2")
     elif opcion == "3":
