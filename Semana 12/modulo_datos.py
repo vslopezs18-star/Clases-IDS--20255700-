@@ -12,3 +12,8 @@ cursos = {
     } # Los cursos ya están, de hecho ya pide que sean como clave y valor
 
 # Estructura para inscripciones
+
+inscripciones = {
+    "carnet_del_estudiante": alumnos["carnet"],
+    "código_del_curso": "cursos"
+}

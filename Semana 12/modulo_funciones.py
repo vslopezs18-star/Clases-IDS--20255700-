@@ -14,10 +14,11 @@ def registrar_estudiante():
         for a in dat.alumnos: 
             if a["carnet"] == carnet_i:
                 valido = False
+                print("Ese carnet ya ha sido ingresado antes.")
         if caraceter_carnet >= 6 and caraceter_carnet <= 10 and valido:
-            break
+                break
         else:
-            print("El número de dígitos debe ser entre 6 y 10.")
+                print("El número de dígitos debe ser entre 6 y 10.")
             
     while True:    
         nombre_i = input("Digite el nombre: ")
@@ -31,6 +32,7 @@ def registrar_estudiante():
             break
         else:
             print("El número de caracteres del nombre debe ser al menos 2")
+            
     alumno = {"carnet": carnet_i, 
               "nombre": nombre_i, 
               "apellido": apellido_i}
