@@ -13,7 +13,4 @@ cursos = {
 
 # Estructura para inscripciones
 
-inscripciones = {
-    "carnet_del_estudiante": alumnos["carnet"],
-    "código_del_curso": "cursos"
-}
+inscripciones = []
