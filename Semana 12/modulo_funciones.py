@@ -3,6 +3,7 @@
 # Importamos el módulo de la función
 import modulo_datos as dat
 
+
 def registrar_estudiante():
     """Función para validar y registrar estudiantes"""
    # Le pongo carnet_i para no confundirme con carnet en general
